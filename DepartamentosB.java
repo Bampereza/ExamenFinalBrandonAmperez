@@ -116,5 +116,22 @@ public class DepartamentosB {
        
         //return verLista;
     }    
+     
+      public void lista(){
+
+        System.out.println("----------------------------------");
+        System.out.println("-------Lista Departamentos--------");
+        System.out.println("----------------------------------");
+        System.out.println("");
+        //recorido for por índice
+        for (int i=0; i<listDepa.size(); i++) {
+            System.out.println("El departamento se registro con el numero: " + listDepa.get(i).getRegistroA());
+            System.out.println("Nombre el departamento registrado es: " + listDepa.get(i).getNombreD());
+            System.out.println("La cantidad de municipios que tiene es: " + listDepa.get(i).getNumeroM());
+            System.out.println("La cabecera del departamento es: " + listDepa.get(i).getNombreC());
+        }
+        
+        
+    }
 }
 
