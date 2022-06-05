@@ -63,29 +63,35 @@ public class EjercicioRegistrosBA {
 
                 case 1:
                      
-                  
+                   int registroA=0;
+                     String nombreA="";
+                     int numeroB=0;
+                     String nombreB="";
                      
-                         
-                      
-                          
+                    
+                     
+                     ejerciciosListasB.datosDepa2();
+                     
+      
 
 	          break;
                   
                   case 2:
                    
-                  
+                   ejerciciosListasB.mostrarDatosDepartamento();
                          
       
 	          break;
                   
                  case 3:
                       
+                      ejerciciosListasB.mostrarDatosCabecera();
                                         
 	          break;
                   
                   case 4:
                       
-                    
+                     ejerciciosListasB.PosicionImpar();
                      
 	          break;
                   
@@ -110,9 +116,7 @@ public class EjercicioRegistrosBA {
                        System.out.println("----Bienvenido usuario seleccione la opcion a registrar: ----");
                        System.out.println("-------------------------------------------------------------");
                        System.out.println("(1) Registrar departamentos");
-                       System.out.println("(2) Buscar departamento por nombre"); 
-                       System.out.println("(3) Mostrar cabecera departamental"); 
-                       System.out.println("(4) Mostrar los departamentos por posiciones pares");
+                       System.out.println("(2) Buscar departamento por numero"); 
                        System.out.println("(0) Volver al inicio");
                        
                      System.out.println("Ingrese la opcion que desea usar: ");
@@ -123,24 +127,23 @@ public class EjercicioRegistrosBA {
 
                 case 1:
                     
-                    
+                      String nombreD="";
+                      int numeroM=0;
+                      String nombreC="";
+                      int registroA=0;
+ 
+                        departamentosB.listaDepa();
                           
 
 	          break;
                   
                   case 2:
                       
-                  
+                      departamentosB.mostrarDepa();
                      
 	          break;
                   
-                  case 3:
-                      
-                     
-                     
-	          break;
-                  
-   
+
                 case 0:
                      
 	          break;
@@ -153,19 +156,19 @@ public class EjercicioRegistrosBA {
                  
                 case 3:
                   
-                          
+                           ejerciciosListasB.mostrarDatos();
 
                  break;
                  
                 case 4:
                         
-                       
+                           departamentosB.lista();
                      
                  break;
                  
                   case 5:
                         
-                       
+                           departamentosB.clearListDepa();
                      
                  break;
                 
