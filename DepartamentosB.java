@@ -133,5 +133,25 @@ public class DepartamentosB {
         
         
     }
+      
+        public void mostrarDepa(){
+		
+          Scanner teclado = new Scanner (System.in);
+          int indice;
+          int registroB =0;
+          System.out.println("Verificar registro del departamento.");
+           registroB= teclado.nextInt();
+          indice = listDepa.indexOf(registroB);
+          if (indice != registroA){
+                      System.out.println("El departamento registrado con este numero es: "+nombreD);
+          }else {
+              System.out.println("Este registro del departamento no se encuentra");
+
+          }
+    }
+    
+     public void clearListDepa(){
+      listDepa.clear();
+   }
 }
 
