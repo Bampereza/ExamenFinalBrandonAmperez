@@ -86,6 +86,35 @@ public class DepartamentosB {
     public void setRegistroA(int registroA) {
         this.registroA = registroA;
     }
+     public void listaDepa(){
+                        
+                        System.out.println("----------------------------------------------");  
+                        System.out.println("-----Ingrese el numero del departamento: -----");
+                        System.out.println("----------------------------------------------");
+                          registroA=sc.nextInt();
         
+                        System.out.println("--------------------------------------------");  
+                        System.out.println("---Ingrese el nombre del Departamento: -----");
+                        System.out.println("--------------------------------------------");
+                          nombreD=sc.next();
+                        
+                         
+                        System.out.println("------------------------------------------------------");  
+                        System.out.println("-----Ingrese la cantidad de municipios que tiene: ----");
+                        System.out.println("------------------------------------------------------"); 
+                         numeroM= sc.nextInt();
+                         
+                         
+                        System.out.println("------------------------------------------------");  
+                        System.out.println("-----Ingrese la cabecera del departamento: -----");
+                        System.out.println("------------------------------------------------"); 
+                         nombreC=sc.next();
+                         
+                         
+        
+        listDepa.add(new DepartamentosB(nombreD,numeroM,nombreC, registroA));
+       
+        //return verLista;
+    }    
 }
 
